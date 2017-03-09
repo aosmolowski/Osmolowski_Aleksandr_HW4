@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textViewWidth">0dp</dimen>
+    <dimen name="btnWidth">0dp</dimen>
+    <dimen name="paddingLeft">10dp</dimen>
+    <dimen name="paddingTop">10dp</dimen>
+    <dimen name="paddingBottom">10dp</dimen>
+    <dimen name="marginBottom">10dp</dimen>
+    <dimen name="marginRight">10dp</dimen>
+    <dimen name="btnHeight">45dp</dimen>
+</resources>

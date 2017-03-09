@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="osmolowski.aleksandr.osmolowski_aleksandr_hw3.MainActivity">
+
+    <LinearLayout
+        style="@style/LinearLayoutHorizontalStyle"
+        android:paddingTop="@dimen/paddingTop">
+
+        <TextView
+            style="@style/TextViewStyle"/>
+
+        <TextView
+            style="@style/TextViewStyle"/>
+
+        <TextView
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutHorizontalStyle">
+
+        <TextView
+            style="@style/TextViewStyle"/>
+
+        <TextView
+            style="@style/TextViewStyle"/>
+
+        <TextView
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutHorizontalStyle">
+
+        <TextView
+            style="@style/TextViewStyle"/>
+
+        <TextView
+            style="@style/TextViewStyle"/>
+
+        <TextView
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutHorizontalStyle">
+
+        <TextView
+            style="@style/TextViewStyle"/>
+
+        <TextView
+            style="@style/TextViewStyle"/>
+
+        <TextView
+            style="@style/TextViewStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutBottomStyle">
+
+        <ImageButton
+            android:id="@+id/btnCallId"
+            style="@style/ImgBtnBottomStyle"
+            app:srcCompat="@android:drawable/sym_action_call"
+            android:contentDescription="@string/call_btn_cont_desc" />
+
+        <Button
+            android:id="@+id/btnAppId"
+            style="@style/BtnBottomStyle"
+            android:text="@string/app_btn_txt"/>
+
+        <ImageButton
+            android:id="@+id/btnSMSId"
+            style="@style/ImgBtnBottomStyle"
+            app:srcCompat="@android:drawable/ic_menu_send"
+            android:contentDescription="@string/sms_btn_cont_desc"/>
+    </LinearLayout>
+
+</LinearLayout>

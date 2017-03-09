@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Osmolowski_Aleksandr_HW3</string>
+    <string name="view_text">some text</string>
+    <string name="call_btn_cont_desc">CALL</string>
+    <string name="sms_btn_cont_desc">SMS</string>
+    <string name="app_btn_txt">APP</string>
+</resources>
