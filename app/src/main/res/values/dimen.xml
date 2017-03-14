@@ -2,6 +2,8 @@
 <resources>
     <dimen name="textViewWidth">0dp</dimen>
     <dimen name="btnWidth">0dp</dimen>
+    <dimen name="appPaddingLeft">5dp</dimen>
+    <dimen name="appTxtWidth">150dp</dimen>
     <dimen name="paddingLeft">10dp</dimen>
     <dimen name="paddingTop">10dp</dimen>
     <dimen name="paddingBottom">10dp</dimen>

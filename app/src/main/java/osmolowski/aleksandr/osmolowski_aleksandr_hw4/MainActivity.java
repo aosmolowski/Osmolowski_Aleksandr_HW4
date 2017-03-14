@@ -1,6 +1,7 @@
-package osmolowski.aleksandr.osmolowski_aleksandr_hw3;
+package osmolowski.aleksandr.osmolowski_aleksandr_hw4;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -40,16 +41,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void runCallBtn() {
         Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:"));
         startActivity(intent);
     }
 
     private void runAppBtn() {
-        Intent intent = new Intent(this, EmptyActivity.class);
+        Intent intent = new Intent(this, AppActivity.class);
         startActivity(intent);
     }
 
     private void runSMSBtn() {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.addCategory(Intent.CATEGORY_DEFAULT);
+        intent.setType("vnd.android-dir/mms-sms");
+        intent.setData(Uri.parse("sms:"));
         startActivity(intent);
     }
 }

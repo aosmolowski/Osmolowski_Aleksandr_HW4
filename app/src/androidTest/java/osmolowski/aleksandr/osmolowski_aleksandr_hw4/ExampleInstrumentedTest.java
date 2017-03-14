@@ -1,4 +1,4 @@
-package osmolowski.aleksandr.osmolowski_aleksandr_hw3;
+package osmolowski.aleksandr.osmolowski_aleksandr_hw4;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

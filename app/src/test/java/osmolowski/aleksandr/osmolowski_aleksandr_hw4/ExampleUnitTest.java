@@ -1,4 +1,4 @@
-package osmolowski.aleksandr.osmolowski_aleksandr_hw3;
+package osmolowski.aleksandr.osmolowski_aleksandr_hw4;
 
 import org.junit.Test;
 
